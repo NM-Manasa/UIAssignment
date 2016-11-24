@@ -1,0 +1,101 @@
+      article{
+                margin:30px;
+            }
+            a{cursor: pointer; text-decoration: none;}
+            a:hover{cursor: pointer; text-decoration: none;}
+
+
+            h1{
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size:30px;
+                text-transform: uppercase;
+            }
+            table { border-collapse: collapse; }
+            tr:nth-child(1) { border-top: 2px solid #ccc;
+                              border-bottom: 5px solid #ccc;
+                              height:50px;
+            }
+            tr:nth-child(3){
+                border-top: 2px solid #ccc;
+                border-bottom: 2px solid #ccc;
+            }
+            .product > img{float:left; width: 200px;}
+            .product p{float: left;}
+
+            .product >p:nth-child(1){
+                padding-bottom: 60px;
+            }
+            .col.product {
+                width: 70%;
+            }
+            .col.size{
+                width:5%
+            }
+            .col.qty{
+                width:5%
+            }
+
+            .col.price{
+                width:5%
+            }
+            .qty input{width:30px;}
+            .modal {
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                padding-top: 100px; /* Location of the box */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                margin: 0 auto;
+            }
+            /* Modal Content */
+            .modal-content {
+                background-color: #fefefe;
+                margin: auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 40%;
+            }
+            /* The Close Button */
+            .close {
+                color: #aaaaaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
+            .close:hover,
+            .close:focus {
+                color: #000;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            .button{background-color: blue;
+                    clear: both;
+                    color: #fff;
+                    display: inline-block;
+
+                    font-size: 18px;
+                    font-weight: bold;
+                    height: auto;
+                    line-height: 18px;
+                    padding:15px;
+                    position: relative;
+                    text-transform: uppercase;
+            }
+
+            .contentblock{display: inline-block;
+                          position: relative;
+                          width: 50%;vertical-align: top;}
+
+            .imgblock {
+                display: inline-block;
+                position: relative;
+                width: 40%;
+            }
+
+            .button a {
+                color: #fff;
+            }
